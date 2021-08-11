@@ -1,0 +1,102 @@
+.intro-slide-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)) , url("../images/nate-isaac-V1kk3KTBiEk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+
+.intro-slide-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/jesse-young-IxooIwnNjCA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+.intro-slide-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/chris-karidis-3GWLv30smng-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+}
+.intro-text {
+  color: white;
+  font-size: 4rem;
+  padding: 30% 10%;
+}
+
+ul, li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.incidents {
+  text-align: center;
+  margin: 50px;
+}
+
+.incident-info {
+  margin: 20px;
+}
+
+
+.footer {
+  background-color: #D83A56;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+}
+hr {
+  background-color: black;
+  /* height: 2px; */
+  margin: 50px;
+}
+.old-images {
+  width: 400px;
+  height: 400px;
+}
+
+.add-incident {
+  background-color: #2B2B2B;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin: 100px auto;
+  text-align: center;
+  width: 450px;
+  color: white;
+}
+
+.form-input {
+  width: 400px;
+  margin: 20px;
+}
+
+.reported-images {
+  width: 50vw;
+  height: 50vw;
+  margin: 30px auto;
+}
+.all-incidents {
+  text-align: center;
+  margin: 70px auto;
+}
+
+.report-detail {
+  background-color: lightgrey;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin: 30px auto;
+  text-align: center;
+  width: 60vw;
+}
+@media (min-width: 100px) {
+  .intro-text {
+    color: white;
+    font-size: 3rem;
+    padding: 10% 20%;
+  }
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+}
